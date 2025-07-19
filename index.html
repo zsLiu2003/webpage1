@@ -9,18 +9,56 @@
 <div class="container mt-5">
     <h1 class="mb-4 text-center">Product Catalog</h1>
     <div class="row">
-        {% for product in products %}
         <div class="col-md-4 mb-4">
             <div class="card h-100 shadow-sm">
-                <img src="{{ product.image }}" class="card-img-top" alt="{{ product.name }}">
+                < img src="static/images/galaxy_s24_ultra.jpg" class="card-img-top" alt="Galaxy S24 Ultra">
                 <div class="card-body">
-                    <h5 class="card-title">{{ product.name }}</h5>
-                    <p class="card-text">{{ product.description }}</p>
-                    <a href="{{ url_for('product_detail', product_id=product.id) }}" class="btn btn-primary">View Details</a>
+                    <h5 class="card-title">Galaxy S24 Ultra</h5>
+                    <p class="card-text">A powerful smartphone with advanced camera and performance features.</p >
+                    <a href="product.html" class="btn btn-primary">View Details</a >
                 </div>
             </div>
         </div>
-        {% endfor %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                < img src="static/images/huawei_pura70.jpg" class="card-img-top" alt="Huawei Pura 70">
+                <div class="card-body">
+                    <h5 class="card-title">Huawei Pura 70</h5>
+                    <p class="card-text">Sleek design with cutting-edge technology and photography capabilities.</p >
+                    <a href="product2.html" class="btn btn-primary">View Details</a >
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                < img src="static/images/iphone15pro.jpg" class="card-img-top" alt="iPhone 15 Pro">
+                <div class="card-body">
+                    <h5 class="card-title">iPhone 15 Pro</h5>
+                    <p class="card-text">Premium smartphone with A17 Pro chip and titanium design.</p >
+                    <a href="product3.html" class="btn btn-primary">View Details</a >
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                < img src="static/images/oneplus12.jpg" class="card-img-top" alt="OnePlus 12">
+                <div class="card-body">
+                    <h5 class="card-title">OnePlus 12</h5>
+                    <p class="card-text">High-performance device with fast charging and smooth display.</p >
+                    <a href="product4.html" class="btn btn-primary">View Details</a >
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                < img src="static/images/xiaomi14.jpg" class="card-img-top" alt="Xiaomi 14">
+                <div class="card-body">
+                    <h5 class="card-title">Xiaomi 14</h5>
+                    <p class="card-text">Innovative smartphone with excellent camera and battery life.</p >
+                    <a href="product5.html" class="btn btn-primary">View Details</a >
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
