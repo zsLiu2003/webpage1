@@ -3,7 +3,7 @@
 from flask import Flask, render_template, abort
 from products import products
 
-app = Flask(__name__)
+app = Flask(__name__,template_folder='webpage1')
 
 @app.route("/")
 def index():
